@@ -2,40 +2,25 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Luiz Henrique - Portfólio</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background-color: #f5f5f5; }
-    header { text-align: center; }
-    .projetos { margin-top: 30px; }
-    .contato { margin-top: 30px; }
-  </style>
+  <title>Catálogo - LuxCar</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
-    <h1>Luiz Henrique</h1>
-    <p>Desenvolvedor Web</p>
-    <img src="sua-foto.jpg" alt="Minha foto" width="200">
+    <h1>LuxCar - Catálogo de Veículos</h1>
   </header>
 
-  <section class="sobre">
-    <h2>Sobre Mim</h2>
-    <p>Sou um desenvolvedor apaixonado por tecnologia e programação...</p>
-  </section>
+  <main>
+    <div class="catalogo" id="catalogo">
+      <!-- Carros serão inseridos aqui pelo JavaScript -->
+    </div>
+  </main>
 
-  <section class="projetos">
-    <h2>Meus Projetos</h2>
-    <ul>
-      <li>Projeto 1 - <a href="https://github.com/seuusuario/projeto1">GitHub</a></li>
-      <li>Projeto 2 - <a href="https://github.com/seuusuario/projeto2">GitHub</a></li>
-    </ul>
-  </section>
+  <footer>
+    <p>&copy; 2025 LuxCar. Todos os direitos reservados.</p>
+  </footer>
 
-  <section class="contato">
-    <h2>Contato</h2>
-    <p>Email: <a href="mailto:seuemail@email.com">seuemail@email.com</a></p>
-    <p><a href="https://linkedin.com/in/seuperfil">LinkedIn</a> | <a href="https://github.com/seuusuario">GitHub</a></p>
-  </section>
-
+  <script src="script.js"></script>
 </body>
 </html>
